@@ -1,22 +1,38 @@
 {
   "name": "testfizik",
   "version": "0.1.0",
+  "homepage": "https://shahzod999.github.io/Auth/",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.75",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "@types/react-redux": "^7.1.33",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.6.7",
+    "firebase": "^10.7.2",
     "react": "^18.2.0",
+    "react-data-grid": "^7.0.0-beta.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "react-yup": "^1.24.1",
+    "redux": "^5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.29.3",
+    "yup-locale-ru": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +55,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.9",
+    "@types/react-table": "^7.7.19",
+    "gh-pages": "^6.1.1"
   }
 }
